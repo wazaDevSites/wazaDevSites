@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+.dark_sec {
+    background-color: #f4f4f4;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  
+  .article-list {
+    /* color: #313437; */
+    background-color: #fff;
+  }
+  
+  @media (min-width: 720px) {
+    p {
+      text-align: justify;
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+
+    }
+  }
+  
+  @media (max-width: 720px) {
+    p {
+      text-align: justify;
+      font-family: Montserrat, sans-serif;
+      font-size: 4vw;
+
+    }
+  }
+  
+  @media (max-width: 720px) {
+    p {
+      text-align: justify;
+      font-family: Montserrat, sans-serif;
+      font-size: 3vw;
+   
+    }
+  }
